@@ -1,0 +1,531 @@
+bod{
+    color: #4e4e4e;
+}
+p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.title-left{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.title-left::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -10px;
+    left: 0px;
+
+}
+/*home*/
+.home{
+    background-image: url(img/hero-bg.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+.overlay-home{
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0.9;
+
+}
+.menu-line::after{
+    content: ' ';
+    width: 75%;
+    height: 2px;
+    background-color: #0062d3;
+    position: absolute;
+    left: 6px;
+    bottom: 5px;
+}
+a:hover{
+    color:rgb(255, 127, 127);
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+/* .nav-link::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #ffffff;
+    width: 75%;
+    bottom: 0px;
+    left: 2px;
+    transition: 2s;
+
+}
+.nav-link:active .nav-link::after{
+    width: 75%;
+}
+
+/* .navbar-brand{
+    color: red ;
+}
+.nav-item{
+    position: relative;
+} */
+
+/* .z-index{
+    z-index: 1040;
+} */
+.title {
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+.home p::after{
+    content: "";
+    animation: typing 15s infinite;
+    font-size: 3.5rem;
+}
+@keyframes typing{
+    0%{
+        content: "D|";
+    }
+    1%{
+        content: "De|";
+    }
+    2%{
+        content: "Des|";
+    }
+    3%{
+        content: "Desi|";
+    }
+    4%{
+        content: "Desig|";
+    }
+    5%{
+        content: "Design|";
+    }
+    6%{
+        content: "Designe|";
+    }
+    7%{
+        content: "Designer|";
+    }
+    10%{
+        content: "Designe|";
+    }
+    11%{
+        content: "Design|";
+    }
+    12%{
+        content: "Desig|";
+    }
+    13%{
+        content: "Desi|";
+    }
+    14%{
+        content: "Des|";
+    }
+    15%{
+        content: "De|";
+    }
+    16%{
+        content: "D|";
+        opacity: 100%;
+    }
+    16%{
+        content: "|";
+    }
+    17%{
+        content: "|";
+        opacity: 0%;
+    }
+    18%{
+        content: "|";
+        opacity: 50%;
+    }
+    19%{
+        content: "|";
+        opacity: 0%;
+    }
+
+    20%{
+        content: "|";
+        opacity: 100%;
+
+    }
+    21%{
+        content: "D|";
+    }
+    22%{
+        content: "De|";
+    }
+    23%{
+        content: "Dev|";
+    }
+    24%{
+        content: "Deve|";
+    }
+    25%{
+        content: "Devel|";
+    }
+    26%{
+        content: "Develo|";
+    }
+    27%{
+        content: "Develop|";
+    }
+    28%{
+        content: "Develope|";
+    }
+    29%{
+        content: "Developer|";
+    }
+    32%{
+        content: "Developer|";
+    }
+    33%{
+        content: "Develope|";
+    }
+    34%{
+        content: "Develop|";
+    }
+    35%{
+        content: "Develo|";
+    }
+    36%{
+        content: "Devel|";
+    }
+    37%{
+        content: "Deve|";
+    }
+    38%{
+        content: "Dev|";
+    }
+    39%{
+        content: "De|";
+    }
+    40%{
+        content: "D|";
+        opacity: 100%;
+    }
+    41%{
+        content: "|";
+    }
+    42%{
+        content: "|";
+        opacity: 0%;
+    }
+    43%{
+        content: "|";
+        opacity: 50%;
+    }
+    44%{
+        content: "|";
+        opacity: 0%;
+    }
+
+    45%{
+        content: "|";
+        opacity: 100%;
+
+    }
+    46%{
+        content: "F|";
+    }
+    47%{
+        content: "Fr|";
+    }
+    48%{
+        content: "Fre|";
+    }
+    49%{
+        content: "Free|";
+    }
+    50%{
+        content: "Freel|";
+    }
+    51%{
+        content: "Freela|";
+    }
+    52%{
+        content: "Freelan|";
+    }
+    53%{
+        content: "Freelanc|";
+    }
+    54%{
+        content: "Freelance|";
+    }
+    55%{
+        content: "Freelancer|";
+    }
+    58%{
+        content: "Freelancer|";
+    }
+    59%{
+        content: "Freelance|";
+    }
+    60%{
+        content: "Freelanc|";
+    }
+    61%{
+        content: "Freelan|";
+    }
+    62%{
+        content: "Freela|";
+    }
+    63%{
+        content: "Freel|";
+    }
+    64%{
+        content: "Free|";
+    }
+    65%{
+        content: "Fre|";
+    }
+    66%{
+        content: "Fr|";
+    }
+    67%{
+        content: "F|";
+        opacity: 100%;
+    }
+    68%{
+        content: "|";
+    }
+
+    69%{
+        content: "|";
+        opacity: 0%;
+    }
+    70%{
+        content: "|";
+        opacity: 50%;
+    }
+    71%{
+        content: "|";
+        opacity: 0%;
+    }
+
+    72%{
+        content: "|";
+        opacity: 100%;
+
+    }
+    73%{
+        content: "P|";
+    }
+    74%{
+        content: "Ph|";
+    }
+    75%{
+        content: "Pho|";
+    }
+    76%{
+        content: "Phot|";
+    }
+    77%{
+        content: "Photo|";
+    }
+    78%{
+        content: "Photog|";
+    }
+    79%{
+        content: "Photogr|";
+    }
+    80%{
+        content: "Photogra|";
+    }
+    81%{
+        content: "Photograp|";
+    }
+    82%{
+        content: "Photograph|";
+    }
+    83%{
+        content: "Photographe|";
+    }
+    84%{
+        content: "Photographer|";
+    }
+    87%{
+        content: "Photographer|";
+    }
+    89%{
+        content: "Photographe|";
+    }
+    90%{
+        content: "Photograph|";
+    }
+    91%{
+        content: "Photograp|";
+    }
+    92%{
+        content: "Photogra|";
+    }
+    93%{
+        content: "Photogr|";
+    }
+    94%{
+        content: "Photog|";
+    }
+    95%{
+        content: "Photo|";
+    }
+    96%{
+        content: "Phot|";
+    }
+    97%{
+        content: "Pho|";
+    }
+    98%{
+        content: "Ph|";
+    }
+    99%{
+        content: "P|";
+    }
+    100%{
+        content: "|";
+    }
+}
+/*about*/
+ul{
+ list-style: none;
+}
+.w-85{
+    width: 85%;
+}
+.w-90{
+    width: 90%;
+}
+.bg-skill{
+    background-color: #cde1f8;
+}
+.my-p{
+    padding: 0.4rem;
+}
+/*servaice*/
+.line{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+.subtitle {
+ font-size: 1rem;
+ font-weight: 100;
+}
+.title-a {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.item{
+    border-radius: 1rem;
+}
+.my-icon{
+    border: #0078ff 0.7rem solid;
+    padding: 2rem;
+    transition: 0.5s;
+}
+.my-icon:hover{
+    border: rgb(179, 195, 245) 0.7rem solid;
+    color:white;
+    background-color: #0078ff;
+}
+/*number*/
+.number{
+    background-image: url(img/counters-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay-number{
+ background-color: rgb(0, 120, 255);
+ opacity: 0.75;
+}
+.number i{
+    border: #cde1f8 0.7rem solid;
+}
+#portofolio i{
+    bottom: 1rem;
+    right: 0.5rem;
+}
+.fs-8{
+    font-size: 0.8rem;
+}
+.fw-400{
+    font-weight: 400;
+}
+#portofolio img{
+    transition: 1s;
+}
+#portofolio img:hover{
+    transform: scale(1.5);
+}
+.my-card{
+    border-radius: none;
+    border: none;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+/*testimonial*/
+
+.b-g-blue{
+    background-image: url(img/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 2rem;
+    background-attachment: fixed;
+
+}
+.carousel-indicators .active {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+}
+.carousel-indicators [data-bs-target]{
+    background-color: rgba(255, 255, 255,0.7);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.carousel-indicators{
+    margin-bottom: -20px;
+}
+/*blog*/
+#blog h6{
+    position: relative;
+    top:-15px
+}
+.card-footer small{
+    top: 10px;
+}
+.card{
+    border-radius: 0;
+}
+.card-title{
+    transition: 0.5s;
+}
+.card-title:hover{
+    color: #0078ff;
+}
+.form-control{
+    width: calc(100% - 2rem);
+    margin: 1rem;
+    border-radius: 0px;
+    padding: 0.5rem;
+}
+
+
+/*footer*/
+.inner-shadow {
+    box-shadow: 0 5px 8px 4px rgb(0 0 0/ 8%);
+  }
+footer{
+    background: #0062d3;
+}
+.upicon{
+    bottom: 1rem;
+    right: 1rem;
+}
